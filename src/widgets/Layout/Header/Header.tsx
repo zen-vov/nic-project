@@ -1,3 +1,7 @@
 export default function Header() {
-  return <div>header page</div>;
+  return (
+    <header>
+      <div className="container">header page</div>
+    </header>
+  );
 }
