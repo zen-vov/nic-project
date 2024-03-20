@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-  max-width: 1512px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 108px;
@@ -17,6 +17,11 @@
   }
 }
 
+.bg-background {
+  background-color: #f6f7f9;
+}
+
+/* 
 h1,
 h2,
 h3,
@@ -24,4 +29,4 @@ h4,
 h5,
 h6 {
   line-height: normal;
-}
+} */
