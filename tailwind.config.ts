@@ -1,24 +1,24 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
       fontSize: {
-        "xs": '12px',
-        "sm": '14px',
-        "base": '16px',
-        "lg": '18px',
-        "lg2": '20px',
-        "xl": '24px',
-        "xl2": '32px',
-        '2xl': '36px' 
+        xs: "12px",
+        sm: "14px",
+        base: "16px",
+        lg: "18px",
+        lg2: "20px",
+        xl: "24px",
+        xl2: "32px",
+        "2xl": "36px",
       },
       colors: {
-        primary: '#3563E9',
-        background: '#F6F7F9',
+        primary: "#3563E9",
+        secondary: "#1A202C",
+        background: "#F6F7F9",
+        gray: "#13131399",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
