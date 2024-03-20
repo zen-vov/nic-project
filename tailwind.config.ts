@@ -2,12 +2,20 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      fontSize: {
+        "text-xs": '12px',
+        "text-sm": '14px',
+        "text-base": '16px',
+        "text-lg": '18px',
+        "text-lg2": '20px',
+        "text-xl": '24px',
+        "text-xl2": '32px',
+        'text-2xl': '36px' 
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
