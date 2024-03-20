@@ -7,14 +7,18 @@ const config: Config = {
   theme: {
     extend: {
       fontSize: {
-        "text-xs": '12px',
-        "text-sm": '14px',
-        "text-base": '16px',
-        "text-lg": '18px',
-        "text-lg2": '20px',
-        "text-xl": '24px',
-        "text-xl2": '32px',
-        'text-2xl': '36px' 
+        "xs": '12px',
+        "sm": '14px',
+        "base": '16px',
+        "lg": '18px',
+        "lg2": '20px',
+        "xl": '24px',
+        "xl2": '32px',
+        '2xl': '36px' 
+      },
+      colors: {
+        primary: '#3563E9',
+        background: '#F6F7F9',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
